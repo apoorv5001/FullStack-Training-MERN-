@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS First Page</title>
+</head>
+<body>
+    <p id="info"></p>
+    <!-- <button onclick="openURL();">Open URL</button> -->
+    <button onclick="openURL();">Open URL</button>
+    <button id="alert">Open Alert</button>
+    <button id="msg">Open Message</button>
+<script>
+        function openURL(){
+            //window.open("https://www.google.com");
+            //window.location.href="https://www.google.com";
+            //document.location="https://www.google.com";
+            //history.forward();
+            // document.getElementById("info").innerHTML="<h2>Hello World</h2>";
+            // document.getElementById("info").innerHTML=navigator.userAgent;
+            document.getElementById("info").innerHTML=navigator.appVersion;
+        }
+        // const alertButton = document.getElementById("alert");
+        // alertButton.onclick=()=>{
+        //     alert("Hello World");
+            
+        // }
+        const msgButton = document.getElementById("msg");
+        msgButton.onclick=()=>{
+            alert("Hello World");
+        }
+        const msgButton=document.getElementById("msg");
+        msgButton.addEventListener("click",()=>{
+            alert("Hello World");
+        })
+    </script>
+</body>
+</html>
