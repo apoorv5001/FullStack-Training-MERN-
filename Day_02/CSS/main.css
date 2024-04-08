@@ -1,0 +1,15 @@
+h2{
+    color: red;
+}
+Heading{
+    color:blue;
+    text-align: center;
+    text-decoration: underline overline;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: xx-large;
+}
+#Para1{
+    margin: 15px;
+    text-align: justify;
+}
