@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+      body{
+        background-image: url(Images/Image2.jpg);
+        background-position: center;
+      }
+      table,th,td{
+            border: 1px solid red;
+            /* border-collapse: collapse; */
+        }
+        th,td{
+            padding: 10px;
+            text-align: center;
+        }
+        td{
+            background-color: aqua;
+        }
+        tr:nth-child(even){
+            background-color: burlywood;
+            color: white;
+        }
+        #button{
+            background-color: red;
+            border: 2px;
+            margin: 5px;
+            padding: 2px;
+            position: absolute;
+            color:white;
+            border-radius: 5px;
+            margin-left: 125px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <table>
+        <table style="border-collapse: collapse;">
+        <tr>
+            <th colspan="4">Student Information</th>
+            </tr>
+            <tr>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>MCA</td> 
+            <td>75%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ram</td>
+            <td>MCA</td> 
+            <td>85%</td>
+        </tr>
+    </table>
+</body>
+<a id=button href="StudentInfo.html">It's Over</a>
+</html>
